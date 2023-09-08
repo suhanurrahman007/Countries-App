@@ -1,0 +1,18 @@
+
+.country{
+    padding: 2rem;
+    border: 2px solid brown;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
