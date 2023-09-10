@@ -1,0 +1,35 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.country-li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    background-color: black;
+    list-style-type: none;
+    width: 300px;
+    text-align: center;
+}
+
+.li-s{
+    padding: .8rem;
+    text-align: center;
+}
+
+.flags-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.flags-img{
+    width: 150px;
+    height: 90px;
+}
